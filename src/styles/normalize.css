@@ -5,3 +5,7 @@ body {
 body, body * {
     box-sizing: border-box;
 }
+
+input {
+    display: block;
+}
