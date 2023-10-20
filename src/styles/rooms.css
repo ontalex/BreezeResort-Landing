@@ -1,0 +1,59 @@
+/* ---- begin form rooms ---- */
+
+.form {}
+
+.form_input {}
+
+.form_input_name {}
+
+.form_input_desc {}
+
+.form_button {}
+
+.form_button_add {}
+
+/* ---- end form rooms ---- */
+
+/* ---- begin list rooms ---- */
+
+.rooms {
+    
+}
+
+.room {
+    width: 100%;
+
+    border: 2px solid var(--light_violet);
+    border-radius: 8px;
+
+    padding: 14px;
+
+    margin: 16px 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr minmax(72px, 100px);
+}
+
+.room_name {
+    margin: 0;
+}
+
+.room_description {
+    margin: 0;
+}
+
+.room_btn {
+    background-color: var(--light_violet);
+    
+    padding:0px 12px;
+    
+    border: 0px;
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.room_btn_delate {}
+
+/* ---- end list rooms ---- */
