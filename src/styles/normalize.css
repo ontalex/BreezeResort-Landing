@@ -9,3 +9,7 @@ body, body * {
 input {
     display: block;
 }
+
+a {
+    text-decoration: none;
+}
