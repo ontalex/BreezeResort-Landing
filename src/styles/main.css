@@ -1,3 +1,5 @@
+/* https://coolors.co/07040e-342552-614596-866faf-f2ecfa */
+
 :root {
     --back: #07040E;
     --dark_violet: #342552;
@@ -6,9 +8,41 @@
     --white: #F2ECFA;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 20px;
+    padding: 10px 20px;
+
+    background-color: var(--dark_violet);
+}
+
+header h1 {
+    margin: 0;
+    color: var(--white);
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+main {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--light_violet);
+    padding: 10px
 }
