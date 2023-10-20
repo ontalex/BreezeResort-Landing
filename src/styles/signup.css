@@ -18,25 +18,30 @@ body {
 }
 
 .form {
-    padding: 20px;
+    padding: 32px;
     border-radius: 8px;
     background: #fff;
-    box-shadow: 0px 0px 16px #333;   
+    box-shadow: 0px 0px 8px #ccc;
 }
 
 .form_header {
     text-align: center;
+    margin: 0px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .form_input {
     width: 100%;
-    padding: 8px;
+    padding: 12px;
     border-radius: 4px;
     margin-bottom: 12px;
+    font-size: 14px;
+    background-color: var(--white);
+    border: 0;
 }
 
 .form_input::placeholder {
-
+    font-size: 14px;
 }
 
 .form_buttons {
@@ -51,6 +56,13 @@ body {
     padding: 10px;
     border-radius: 4px;
     width: 100%;
+
+    background-color: var(--violet);
+    color: var(--white);
+    border: 0px;
+    font-size: 16px;
 }
 
-
+.button:hover {
+    background-color: var(--light_violet);
+}
