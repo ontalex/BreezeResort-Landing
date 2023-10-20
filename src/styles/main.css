@@ -1,0 +1,14 @@
+:root {
+    --back: #07040E;
+    --dark_violet: #342552;
+    --violet: #614596;
+    --light_violet: #866FAF;
+    --white: #F2ECFA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+}
