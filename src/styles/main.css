@@ -1,7 +1,7 @@
 /* https://coolors.co/07040e-342552-614596-866faf-f2ecfa */
 
 :root {
-    --back: #07040E;
+    --black: #07040E;
     --dark_violet: #342552;
     --violet: #614596;
     --light_violet: #866FAF;
@@ -21,20 +21,36 @@ header {
     background-color: var(--dark_violet);
 }
 
+@media screen and (max-width: 640px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
 header h1 {
     margin: 0;
     color: var(--white);
 }
 
 header nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
     margin: 0;
     padding: 0;
 }
 
-header nav {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+@media screen and (max-width: 640px) {
+
+    header h1 {
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
 }
 
 header nav a {
@@ -42,8 +58,10 @@ header nav a {
 }
 
 main {
-    min-height: 100vh;
     padding: 20px;
+
+    max-width: 1600px;
+    margin: auto;
 }
 
 footer {
