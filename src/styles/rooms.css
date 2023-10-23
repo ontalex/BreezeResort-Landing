@@ -1,14 +1,73 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        display: block;
+    }
+}
+
 /* ---- begin form rooms ---- */
 
-.form {}
+.btn {
+    background-color: var(--light_violet);
 
-.form_input {}
+    padding: 10px 15px;
 
-.form_input_name {}
+    border: 0px;
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+}
 
-.form_input_desc {}
+/* ---- begin form rooms ---- */
 
-.form_button {}
+/* ---- begin form rooms ---- */
+
+.form {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid var(--light_violet);
+
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form_input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--violet);
+
+    font-size: 16px;
+}
+
+.form_input_name {
+    color: var(--black);
+
+}
+
+.form_input_desc {
+    color: var(--black);
+
+}
+
+.form_button {
+    padding: 1;
+}
 
 .form_button_add {}
 
@@ -16,9 +75,7 @@
 
 /* ---- begin list rooms ---- */
 
-.rooms {
-    
-}
+.rooms {}
 
 .room {
     width: 100%;
@@ -28,12 +85,24 @@
 
     padding: 10px;
 
-    margin: 16px 0px;
+    margin-bottom: 16px;
 
     display: grid;
     grid-template-columns: 1fr 4fr minmax(72px, 100px);
     align-items: center;
     gap: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    .room {
+        grid-template-columns: 1fr;
+    }
+}
+
+.room_name::placeholder,
+.room_name::-moz-placeholder,
+.room_name::-webkit-input-placeholder {
+    color: var(--black);
 }
 
 .room_name {
@@ -42,22 +111,34 @@
 
 .room_description {
     margin: 0;
-    white-space: nowrap; /* Текст не переносится */
-    overflow: hidden; /* Обрезаем всё за пределами блока */
-    text-overflow: ellipsis; /* Добавляем многоточие */
+    white-space: nowrap;
+    /* Текст не переносится */
+    overflow: hidden;
+    /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis;
+    /* Добавляем многоточие */
 }
 
-.room_btn {
-    background-color: var(--light_violet);
-    
-    padding:10px 15px;
-    
-    border: 0px;
-    border-radius: 4px;
-    color: var(--white);
-    font-size: 14px;
-    font-weight: bold;
+.room_description::placeholder,
+.room_description::-moz-placeholder,
+.room_description::-webkit-input-placeholder {
+    color: var(--black);
 }
+
+@media screen and (max-width: 640px) {
+    .room_name {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .room_description {
+        overflow: auto;
+        text-overflow: initial;
+        white-space: initial;
+    }
+}
+
+.room_btn {}
 
 .room_btn_delate {}
 
