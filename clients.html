@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,130 @@
     <link rel="stylesheet" href="./src/styles/clients.css">
     <title>Client</title>
 </head>
+
 <body>
     <header>
         <h1>BreezeResort | Client</h1>
         <nav>
             <a href="./hotels.html">Отели</a>
-            <a href="./rooms.html">Комнаты</a>
+            <a href="./clients.html">Комнаты</a>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+
+        <div>
+
+            <form action="" class="form">
+
+                <input class="form_input form_input_name" type="text" name="fio" placeholder="ФИО клиента...">
+                <input class="form_input form_input_name" type="email" name="email" placeholder="Почта...">
+                <input class="form_input form_input_name" type="tel" name="phone" placeholder="Номер телефона...">
+                <input class="form_input form_input_name" type="date" name="birth_date" placeholder="Дата рождения...">
+                <select type="text" class="form_input">
+                    <option value="1">Room 1</option>
+                    <option value="2">Room 2</option>
+                    <option value="3">Room 3</option>
+                    <option value="4">Room 4</option>
+                </select>
+                <button class="btn form_button form_button_add">Зарегистрировать</button>
+
+            </form>
+
+        </div>
+
+        <div class="clients">
+
+            <div class="client">
+
+                <div class="client_info">
+
+                    <p class="client_name">Борисов Алексей Олегович</p>
+                    <p class="client_birthdate client_description">30.03.2005 год (18 лет)</p>
+                    <p class="client_phone client_description">8-915-555-66-33</p>
+                    <p class="client_email client_description">ontalex@yandex.ru</p>
+
+                    <form action="" class="client_form_rebase">
+                        <span>Переселить&nbsp;в</span> 
+                        <select type="text" class="client_select_rebase">
+                            <option value="1">Room 1</option>
+                            <option value="2">Room 2</option>
+                            <option value="3">Room 3</option>
+                            <option value="4">Room 4</option>
+                        </select>
+                    </form>
+
+                </div>
+
+                <div class="client_btns">
+                    <button class="btn client_btn client_btn_delate"><span>Удалить</span></button>
+                    <button class="btn client_btn client_btn_update"><span>Изменить</span></button>
+                </div>
+
+            </div>
+
+            <div class="client">
+
+                <div class="client_info">
+
+                    <p class="client_name">Борисов Алексей Олегович</p>
+                    <p class="client_birthdate client_description">30.03.2005 год (18 лет)</p>
+                    <p class="client_phone client_description">8-915-555-66-33</p>
+                    <p class="client_email client_description">ontalex@yandex.ru</p>
+
+                    <form action="" class="client_form_rebase">
+                        <span>Переселить&nbsp;в</span> 
+                        <select type="text" class="client_select_rebase">
+                            <option value="1">Room 1</option>
+                            <option value="2">Room 2</option>
+                            <option value="3">Room 3</option>
+                            <option value="4">Room 4</option>
+                        </select>
+                    </form>
+
+                </div>
+
+                <div class="client_btns">
+                    <button class="btn client_btn client_btn_delate"><span>Удалить</span></button>
+                    <button class="btn client_btn client_btn_update"><span>Изменить</span></button>
+                </div>
+
+            </div>
+
+            <div class="client">
+
+                <div class="client_info">
+
+                    <p class="client_name">Борисов Алексей Олегович</p>
+                    <p class="client_birthdate client_description">30.03.2005 год (18 лет)</p>
+                    <p class="client_phone client_description">8-915-555-66-33</p>
+                    <p class="client_email client_description">ontalex@yandex.ru</p>
+
+                    <form action="" class="client_form_rebase">
+                        <span>Переселить&nbsp;в</span> 
+                        <select type="text" class="client_select_rebase">
+                            <option value="1">Room 1</option>
+                            <option value="2">Room 2</option>
+                            <option value="3">Room 3</option>
+                            <option value="4">Room 4</option>
+                        </select>
+                    </form>
+
+                </div>
+
+                <div class="client_btns">
+                    <button class="btn client_btn client_btn_delate"><span>Удалить</span></button>
+                    <button class="btn client_btn client_btn_update"><span>Изменить</span></button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <dialog>
+
+        </dialog>
+
+    </main>
 </body>
+
 </html>

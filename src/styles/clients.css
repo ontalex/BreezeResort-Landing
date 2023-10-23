@@ -1,0 +1,157 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        display: block;
+    }
+}
+
+/* ---- begin form clients ---- */
+
+.btn {
+    background-color: var(--light_violet);
+
+    padding: 10px 15px;
+
+    border: 0px;
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+/* ---- begin form clients ---- */
+
+/* ---- begin form clients ---- */
+
+.form {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid var(--light_violet);
+
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form_input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--violet);
+
+    font-size: 16px;
+}
+
+.form_input_name {
+    color: var(--black);
+
+}
+
+.form_input_desc {
+    color: var(--black);
+
+}
+
+.form_button {
+    padding: 1;
+}
+
+.form_button_add {}
+
+/* ---- end form clients ---- */
+
+/* ---- begin list clients ---- */
+
+.clients {}
+
+.client {
+    width: 100%;
+
+    border: 2px solid var(--light_violet);
+    border-radius: 8px;
+
+    padding: 10px;
+
+    margin-bottom: 16px;
+
+    display: grid;
+    grid-template-columns: 1fr minmax(72px, 100px);
+    align-items: start;
+    gap: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    .client {
+        grid-template-columns: 1fr;
+    }
+}
+
+.client_name::placeholder,
+.client_name::-moz-placeholder,
+.client_name::-webkit-input-placeholder {
+    color: var(--black);
+}
+
+.client_name {
+    margin: 0;
+}
+
+.client_description {
+    margin: 10px 0;
+}
+
+.client_description::placeholder,
+.client_description::-moz-placeholder,
+.client_description::-webkit-input-placeholder {
+    color: var(--black);
+}
+
+@media screen and (max-width: 640px) {
+    .client_name {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .client_description {
+        overflow: auto;
+        text-overflow: initial;
+        white-space: initial;
+    }
+}
+
+.client_btns {
+    display: grid;
+    gap: 10px;
+}
+
+.client_btn {}
+
+.client_btn_delate {}
+
+.client_form_rebase {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.client_select_rebase {
+    padding: 10px;
+    border: 1px solid var(--violet);
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* ---- end list clients ---- */
