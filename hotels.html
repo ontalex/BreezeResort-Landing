@@ -1,22 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/normalize.css">
-    <link rel="stylesheet" href="./src/styles/main.css">
-    <link rel="stylesheet" href="./src/styles/hotels.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/normalize.css" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/hotels.css" />
     <title>Hotels</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>BreezeResort | Hotels</h1>
-        <nav>
-            <a href="./rooms.html">Комнаты</a>
-            <a href="./clients.html">Клиенты</a>
-        </nav>
+      <h1>BreezeResort | Hotels</h1>
+      <nav>
+        <a href="./hotels.html">Комнаты</a>
+        <a href="./clients.html">Клиенты</a>
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
-</body>
+    <main>
+      <div class="container_form">
+        <form action="" class="form">
+          <input
+            class="form_input form_input_name"
+            type="name"
+            name="hotel_name"
+            placeholder="Название отеля"
+          />
+          <input
+            class="form_input form_input_number"
+            type="number"
+            name="number"
+            id="hotel_number"
+            placeholder="Номер отеля"
+          />
+          <button class="btn form_button form_button_add">Добавить</button>
+        </form>
+      </div>
+      <div class="hotels">
+        <div class="hotel">
+          <p class="hotel_name">Отель Север Вод</p>
+          <p class="hotel_description">№001</p>
+          <button class="btn hotel_btn hotel_btn_delate">
+            <span>Удалить</span>
+          </button>
+        </div>
+
+        <div class="hotel">
+          <p class="hotel_name">Отель Север Вод</p>
+          <p class="hotel_description">№001</p>
+          <button class="btn hotel_btn hotel_btn_delate">
+            <span>Удалить</span>
+          </button>
+        </div>
+
+        <div class="hotel">
+          <p class="hotel_name">Отель Север Вод</p>
+          <p class="hotel_description">№001</p>
+          <button class="btn hotel_btn hotel_btn_delate">
+            <span>Удалить</span>
+          </button>
+        </div>
+
+        <div class="hotel">
+          <p class="hotel_name">Отель Север Вод</p>
+          <p class="hotel_description">№001</p>
+          <button class="btn hotel_btn hotel_btn_delate">
+            <span>Удалить</span>
+          </button>
+        </div>
+
+        <div class="hotel">
+          <p class="hotel_name">Отель Север Вод</p>
+          <p class="hotel_description">№001</p>
+          <button class="btn hotel_btn hotel_btn_delate">
+            <span>Удалить</span>
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
