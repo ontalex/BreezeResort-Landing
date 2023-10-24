@@ -89,6 +89,7 @@ main {
 
 .hotel_name {
     margin: 0;
+    font-weight: bold;
 }
 
 .hotel_description {}

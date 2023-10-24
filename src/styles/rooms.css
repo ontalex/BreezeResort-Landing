@@ -72,8 +72,8 @@ main {
     margin-bottom: 16px;
 
     display: grid;
-    grid-template-columns: 1fr 4fr minmax(72px, 100px);
-    align-items: center;
+    grid-template-columns: 1fr minmax(auto, 100px);
+    align-items: start;
     gap: 16px;
 }
 
@@ -81,6 +81,11 @@ main {
     .room {
         grid-template-columns: 1fr;
     }
+}
+
+.room_info {
+    display: grid;
+    gap: 10px;
 }
 
 .room_name::placeholder,
@@ -91,6 +96,7 @@ main {
 
 .room_name {
     margin: 0;
+    font-weight: bold;
 }
 
 .room_description {
@@ -125,5 +131,18 @@ main {
 .room_btn {}
 
 .room_btn_delate {}
+
+.rooms_form_rebase {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.rooms_select_rebase {
+    padding: 10px;
+    border: 1px solid var(--violet);
+    border-radius: 4px;
+    width: 100%;
+}
 
 /* ---- end list rooms ---- */

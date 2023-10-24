@@ -91,6 +91,7 @@ main {
 
 .client_name {
     margin: 0;
+    font-weight: bold;
 }
 
 .client_description {
@@ -129,7 +130,7 @@ main {
     padding: 10px;
     border: 1px solid var(--violet);
     border-radius: 4px;
-    width: 100%;
+    width: min-content;
 }
 
 /* ---- end list clients ---- */
