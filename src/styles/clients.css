@@ -17,22 +17,6 @@ main {
 
 /* ---- begin form clients ---- */
 
-.btn {
-    background-color: var(--light_violet);
-
-    padding: 10px 15px;
-
-    border: 0px;
-    border-radius: 4px;
-    color: var(--white);
-    font-size: 16px;
-    /* font-weight: bold; */
-}
-
-/* ---- begin form clients ---- */
-
-/* ---- begin form clients ---- */
-
 .form {
     position: sticky;
     position: -webkit-sticky;
@@ -123,12 +107,6 @@ main {
     .client_name {
         text-align: center;
         font-size: 18px;
-    }
-
-    .client_description {
-        overflow: auto;
-        text-overflow: initial;
-        white-space: initial;
     }
 }
 

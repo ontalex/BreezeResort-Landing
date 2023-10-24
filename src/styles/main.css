@@ -57,14 +57,31 @@ header nav a {
     color: var(--white);
 }
 
-main {
-    padding: 20px;
-
+.container {
     max-width: 1600px;
     margin: auto;
+}
+
+main {
+    padding: 20px;
 }
 
 footer {
     background-color: var(--light_violet);
     padding: 10px
+}
+
+.btn {
+    background-color: var(--violet);
+
+    padding: 10px 15px;
+
+    border: 0px;
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: var(--light_violet);
 }

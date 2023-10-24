@@ -17,22 +17,6 @@ main {
 
 /* ---- begin form rooms ---- */
 
-.btn {
-    background-color: var(--light_violet);
-
-    padding: 10px 15px;
-
-    border: 0px;
-    border-radius: 4px;
-    color: var(--white);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-/* ---- begin form rooms ---- */
-
-/* ---- begin form rooms ---- */
-
 .form {
     position: sticky;
     position: -webkit-sticky;
