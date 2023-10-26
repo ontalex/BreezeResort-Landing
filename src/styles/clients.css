@@ -49,17 +49,9 @@ main {
 
 }
 
-.form_button {
-    padding: 1;
-}
-
-.form_button_add {}
-
 /* ---- end form clients ---- */
 
 /* ---- begin list clients ---- */
-
-.clients {}
 
 .client {
     width: 100%;
@@ -90,12 +82,12 @@ main {
 }
 
 .client_name {
-    margin: 0;
+    margin: 0px;
     font-weight: bold;
 }
 
 .client_description {
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 
 .client_description::placeholder,
@@ -115,10 +107,6 @@ main {
     display: grid;
     gap: 10px;
 }
-
-.client_btn {}
-
-.client_btn_delate {}
 
 .client_form_rebase {
     display: flex;

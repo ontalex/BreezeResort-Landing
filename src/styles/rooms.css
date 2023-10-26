@@ -49,17 +49,9 @@ main {
 
 }
 
-.form_button {
-    padding: 1;
-}
-
-.form_button_add {}
-
 /* ---- end form rooms ---- */
 
 /* ---- begin list rooms ---- */
-
-.rooms {}
 
 .room {
     width: 100%;
@@ -127,10 +119,6 @@ main {
         white-space: initial;
     }
 }
-
-.room_btn {}
-
-.room_btn_delate {}
 
 .rooms_form_rebase {
     display: flex;
